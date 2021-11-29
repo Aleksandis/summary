@@ -1,8 +1,8 @@
-def countNumbers(teksts):
+def countNumbers(ignat):
   summa = 0
-  for simbols in teksts:
+  for simbols in ignat:
     summa = summa = int(simbols)
   return summa
-  v = input("Ievadi skaitļi")
-  rez = countNumbers
-  print(rez)
+ignat = input("Ievadi skaitļi :")
+res = countNumbers(ignat)
+print(res)
